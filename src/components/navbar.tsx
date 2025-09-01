@@ -4,23 +4,23 @@ import React from 'react'
 
 export const Navbar = () => {
   return (
-    <div className='w-full bg-orange-50x0 font-bold  '>
+    <div className='w-full bg-orange-50x0  '>
         <div className="flex  justify-between items-center py-[15px] px-[50px]">
                     
                         <Image width={150} height={150} src="/Logo.png" alt="logo" />
                     
                     
-                        <ul className='flex gap-x-8 '>
+                        <ul className='flex gap-x-8 font-semibold text-balance '>
                             <li>Discover Envents</li>
                             <li>Organisers</li>
                             <li>Spaces</li>
                             <li>Pricing</li>
                         </ul>
 
-                        <div className="flex gap-x-4 items-center">
+                        <div className="flex gap-x-4 items-center font-bold">
                             <Search/>
                             <Button name='Create Event'/>
-                             <Button name='Sign in'/>
+                            <Button name='Sign in'/>
                         </div>
                     
         </div>
