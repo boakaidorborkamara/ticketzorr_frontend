@@ -2,6 +2,7 @@ import { Search } from 'lucide-react'
 import Image from 'next/image'
 import Link from 'next/link'
 import React from 'react'
+import { Button } from './ui/button-component'
 
 
 // navbar item type
@@ -63,13 +64,3 @@ export const Navbar = () => {
     )
 }
 
-interface props  {
-    name: string,
-}
-
-
-export const Button = ({ name }: props) => {
-    return (
-        <button className='bg-black text-white p-3 rounded-2xl cursor-grab hover:text-slate-600 transition-colors delay-200'>{name}</button>
-    )
-}
