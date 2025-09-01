@@ -10,12 +10,13 @@ export const HeroComponent = () => {
             <div
                 className="img-wrapper w-full h-[753px] bg-cover bg-center"
                 style={{ backgroundImage: "url('/hero.jpg')" }}>
+                    
                 {/* backdrop */}
                 <div className="flex justify-center items-center w-full h-full bg-black/60">
                     {/* inner text wrapper */}
                     <div className="hero-txt flex flex-col text-white items-center">
                         {/* small heading title */}
-                        <h3 className='mb-11'>BIG or small, Online or Offline. We&apos;ll ticket it!</h3>
+                        <h3 className='mb-11 font-bold'>BIG or small, Online or Offline. We&apos;ll ticket it!</h3>
                         {/* main text title */}
                         <div className="main-txt-wrap flex flex-col items-center">
                             <h1 className='text-6xl font-bold'>Discover, Host, and Sell Event</h1>

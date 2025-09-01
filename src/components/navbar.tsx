@@ -10,6 +10,8 @@ type navbarType = {
     name: string,
     url: string
 }
+
+
 //navbat item list
 const navbarListitem: navbarType[] = [
     {
@@ -34,7 +36,7 @@ const navbarListitem: navbarType[] = [
 //navbar component
 export const Navbar = () => {
     return (
-        <div className='w-full bg-orange-50x0  '>
+        <div className='w-full sticky top-0 bg-white z-50 shadow-md '>
             <div className="flex  justify-between items-center py-[15px] px-[50px]">
                 <Link href={'#'}>
                  <Image width={150} height={150} src="/Logo.png" alt="logo"  />
