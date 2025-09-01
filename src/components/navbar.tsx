@@ -35,8 +35,10 @@ export const Navbar = () => {
     return (
         <div className='w-full bg-orange-50x0  '>
             <div className="flex  justify-between items-center py-[15px] px-[50px]">
-
-                <Image width={150} height={150} src="/Logo.png" alt="logo" />
+                <Link href={'#'}>
+                 <Image width={150} height={150} src="/Logo.png" alt="logo"  />
+                </Link>
+               
 
 
                 <ul className='flex gap-x-8 font-semibold text-balance '>
