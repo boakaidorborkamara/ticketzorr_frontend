@@ -15,6 +15,7 @@ export function FeaturesSection() {
   // feature list
   const featuresList: featuresType[] = [
     
+    {title: "Event Management", description: "Set up and manage your events easily."},
     {title: "Customizable Event Pages", description: "Create stunning event pages that reflect your brand and captivate your audience."},
 
   ]
@@ -25,11 +26,11 @@ export function FeaturesSection() {
         <p className="text-center text-[888484]">No setup fees. No hidden costs. Just better ticketing</p>
 
         {/* Cards  */}
-        <div className="grid grid-cols-3 gap-2 mt-10">
+        <div className="flex flex-wrap justify-center mt-12">
           
           {featuresList.map((feature, i)=>{
             console.log(i);
-            return <FeatureCard index={4}/>
+            return <FeatureCard key={i}/>
           })}
         </div>
 
