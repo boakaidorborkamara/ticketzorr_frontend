@@ -1,8 +1,10 @@
-import NextImage from "next/image";
+"use client"
+
 import { FeatureCard } from "./feature-card";
 import { CalendarPlus } from "lucide-react";
 import { ReactNode } from "react";
 import { Button } from "./ui/button-component";
+import { motion } from "motion/react";
 
 
 
@@ -28,7 +30,12 @@ export function FeaturesSection() {
   ]
 
   return (
-    <div className="p-24 flex flex-col justify-center items-center">
+    <motion.div className="p-24 flex flex-col justify-center items-center"
+    initial={{opacity:0}}
+   transition={{duration:0.5}}
+    whileInView={{opacity:1,}}
+    viewport={{amount:0.3}}
+    >
       <div className="flex flex-col gap-4.5">
         <h1 className="text-center text-4xl font-bold ">Everything You Need in a Simple Platform!</h1>
         <p className="text-center text-[888484]">No setup fees. No hidden costs. Just better ticketing</p>
@@ -48,6 +55,6 @@ export function FeaturesSection() {
         <Button className="border-2 w-[158px]   text-sm  font-medium" name="Host An Event" />
       </div>
 
-    </div>
+    </motion.div>
   );
 }

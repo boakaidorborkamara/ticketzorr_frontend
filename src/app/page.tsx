@@ -1,6 +1,9 @@
-import { HeroComponent } from "@/components/ui/hero";
+
 import { FeaturesSection } from "@/components/features-section";
-import Image from "next/image";
+import { TrustedBrandSection } from "@/components/trusted-brand-section";
+import { DiscoveryEventSection } from "@/components/discover-event-section";
+import { HeroComponent } from "@/components/hero";
+
 
 
 export default function Home() {
@@ -9,6 +12,8 @@ export default function Home() {
       <main>
         <HeroComponent />
         <FeaturesSection />
+        <TrustedBrandSection/>
+        <DiscoveryEventSection/>
       </main>
     
     </div>
