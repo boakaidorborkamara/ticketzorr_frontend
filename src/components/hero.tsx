@@ -47,8 +47,8 @@ export const HeroComponent = () => {
                         </motion.div>
                         {/*sub text title */}
                         <motion.h3 className='wrap-break-word w-2/3 text-center text-slate-300 my-2'
-                        initial={{opacity:0}}
-                        animate={{opacity:1,}}
+                        initial={{opacity:0, x:24}}
+                        animate={{opacity:1,x:0}}
                          transition={{ duration: 0.5}}
                         >Liberia&apos;s leading ticketing platform for events of all sizes. Plan with ease, reach your audience, and sell tickets online—fast, secure, and reliable.</motion.h3>
 
