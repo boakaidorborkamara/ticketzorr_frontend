@@ -1,4 +1,5 @@
-import { HeroComponent } from '@/components/ui/hero'
+
+import { HeroComponent } from '@/components/hero'
 import React from 'react'
 
 export default function HomePage() {

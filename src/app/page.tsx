@@ -4,8 +4,6 @@ import { TrustedBrandSection } from "@/components/trusted-brand-section";
 import { DiscoveryEventSection } from "@/components/discover-event-section";
 import { HeroComponent } from "@/components/hero";
 
-
-
 export default function Home() {
   return (
     <div>
