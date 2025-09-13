@@ -32,10 +32,10 @@ export const HeroComponent = () => {
               animate={{ opacity: 1, y: 0 }}
               transition={{ duration: 0.5 }}
             >
-              <h1 className="text-responsive-4xl font-bold leading-tight">
+              <h1 className="text-responsive-4xl font-extrabold leading-tight">
                 Discover, Host, and Sell Event
               </h1>
-              <h1 className="text-responsive-4xl font-bold leading-tight">
+              <h1 className="text-responsive-4xl font-extrabold leading-tight">
                 Tickets in Liberia with{" "}
                 <span className="text-primary block sm:inline">
                   <Typewriter
