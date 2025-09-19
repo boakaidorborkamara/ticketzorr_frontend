@@ -89,7 +89,7 @@ export const DiscoveryEventSection = () => {
 const PopularListComponent = () => {
   return (
     <div className="w-full">
-      <div className="grid grid-responsive-4 gap-4 sm:gap-6 lg:gap-8">
+      <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4 sm:gap-6 lg:gap-4">
         {Array.from({ length: 8 }, (_, i) => (
           <EventCardComponent
             key={i}

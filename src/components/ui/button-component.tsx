@@ -41,7 +41,7 @@ export const Button: React.FC<Props> = ({
     <button
       className={`
                 rounded-2xl cursor-pointer transition-all duration-200
-                font-medium focus:outline-none focus:ring-2 focus:ring-primary focus:ring-offset-2
+                font-medium focus:outline-none focus:ring-2 focus:ring-primary/30 focus:ring-offset-2x
                 active:scale-95 disabled:opacity-50 disabled:cursor-not-allowed
                 flex items-center justify-center whitespace-nowrap
                 ${variantClasses[variant]}

@@ -31,7 +31,7 @@ export const TrustedBrandSection = () => {
         </div>
 
         <div className="w-full max-w-5xl bg-white rounded-2xl mt-8 sm:mt-12 lg:mt-16 p-6 sm:p-8 lg:p-12">
-          <div className="grid grid-cols-2 sm:grid-cols-3 lg:grid-cols-4 gap-6 sm:gap-8 lg:gap-12 place-items-center">
+          <div className="grid grid-cols-2 sm:grid-cols-3 lg:grid-cols-4 gap-6 sm:gap-8 lg:gap-12 place-items-center ">
             {brandIcon.map((brand, i) => {
               return (
                 <div key={i} className="flex items-center justify-center">
