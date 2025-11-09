@@ -3,7 +3,7 @@
 import { ArrowRightCircle } from "lucide-react";
 import { motion } from "framer-motion";
 import { Tabs, TabsContent, TabsList, TabsTrigger } from "./ui/tabs";
-import { ReactNode, useState } from "react";
+import { ReactNode } from "react";
 import { EventCardComponent } from "./ui/event-card";
 import Link from "next/link";
 

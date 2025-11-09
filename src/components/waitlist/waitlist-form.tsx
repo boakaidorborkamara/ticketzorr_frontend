@@ -122,7 +122,7 @@ export function WaitlistForm() {
 
             <div>
               <Label htmlFor="role" className="mb-2 block">
-                I'm interested in *
+                I&apos;m interested in *
               </Label>
               <Select
                 value={formData.role}

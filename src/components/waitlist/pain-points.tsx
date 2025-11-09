@@ -9,7 +9,7 @@ const painPoints = [
   },
   {
     icon: "🔍",
-    title: "Can't Find Events",
+    title: "Can&apos;t Find Events",
     description:
       "Miss out on amazing events happening around you because there&apos;s no central place to discover them.",
   },
@@ -23,13 +23,13 @@ const painPoints = [
     icon: "📱",
     title: "No Internet Access",
     description:
-      "Can't buy tickets or book services without internet and payment options that actually work in Africa.",
+      "Can&apos;t buy tickets or book services without internet and payment options that actually work in Africa.",
   },
   {
     icon: "📊",
     title: "Zero Data Insights",
     description:
-      "Organizers have no idea who's attending or how sales are performing. Manual tracking is exhausting.",
+      "Organizers have no idea who&apos;s attending or how sales are performing. Manual tracking is exhausting.",
   },
   {
     icon: "💰",
@@ -48,7 +48,7 @@ export function PainPoints() {
             We Know Event Planning is Hard
           </h2>
           <p className="text-xl opacity-90 max-w-3xl mx-auto">
-            From fake tickets to unreliable vendors, we're solving the biggest
+            From fake tickets to unreliable vendors, we&apos;re solving the biggest
             problems in African event management
           </p>
         </div>
