@@ -11,7 +11,7 @@ export default function ConditionalLayout({
 }) {
   const pathname = usePathname();
   const hideNavAndFooter =
-    pathname.startsWith("/auth/login") || pathname.startsWith("/auth/sign-up");
+    pathname.startsWith("/auth/login") || pathname.startsWith("/auth/sign-up " ) || pathname.startsWith("/waitlist") || pathname.startsWith("/not-found");
 
   return (
     <>
