@@ -11,7 +11,7 @@ const painPoints = [
     icon: "🔍",
     title: "Can't Find Events",
     description:
-      "Miss out on amazing events happening around you because there's no central place to discover them.",
+      "Miss out on amazing events happening around you because there&apos;s no central place to discover them.",
   },
   {
     icon: "🤝",

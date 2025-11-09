@@ -8,7 +8,7 @@ import { EventCardComponent } from "./ui/event-card";
 import Link from "next/link";
 
 export const DiscoveryEventSection = () => {
-  const [isSelected, setIsSelected] = useState("All Events");
+  // const [isSelected, setIsSelected] = useState("All Events");
   const filterTag: string[] = ["Popular", "Upcoming", "Recent"];
   const sortingTag: string[] = [
     "All Events",

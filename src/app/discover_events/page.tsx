@@ -1,8 +1,8 @@
 "use client";
 import { useState } from "react";
 import { EventCardComponent } from "@/components/ui/event-card";
-import { ArrowRightCircle } from "lucide-react";
-import Link from "next/link";
+// import { ArrowRightCircle } from "lucide-react";
+// import Link from "next/link";
 import { DiscoverEventFilter } from "@/components/discover-event-filter";
 import {
   Pagination,

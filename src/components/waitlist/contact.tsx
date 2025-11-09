@@ -8,7 +8,7 @@ export function Contact() {
           Have Questions?
         </h2>
         <p className="text-xl opacity-90 mb-12 max-w-2xl mx-auto">
-          We'd love to hear from you! Reach out and let's chat about how
+          We&apos;d love to hear from you! Reach out and let&apos;s chat about how
           TicketZorr can help you.
         </p>
 
@@ -26,7 +26,7 @@ export function Contact() {
           <div className="flex items-center gap-4">
             <MessageCircle className="w-8 h-8 text-orange-500" />
             <a
-              href="https://wa.me/231XXXXXXXXX"
+              href="https://wa.me/231770322706"
               target="_blank"
               rel="noopener noreferrer"
               className="text-lg hover:text-orange-500 transition-colors"

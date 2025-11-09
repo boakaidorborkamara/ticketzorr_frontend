@@ -59,7 +59,7 @@ export function WaitlistForm() {
               id="success-message"
               className="bg-green-500 text-white p-4 rounded-xl text-center mb-6 font-semibold"
             >
-              🎉 You're on the list! We'll notify you when we launch.
+              You are on the list! We will notify you when we launch.
             </div>
           )}
 
