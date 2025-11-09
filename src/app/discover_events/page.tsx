@@ -135,7 +135,7 @@ export default function DiscoveryEventSection() {
   );
 }
 
-const EventListComponent = ({ events }: { events: [] }) => {
+const EventListComponent = ({ events }: { events: any[] }) => {
   return (
     <div className="w-full overflow-auto mt-8">
       <div className="wrapper grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-3 gap-4">
